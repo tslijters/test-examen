@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muziekschool H&J</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Muziekschool H&J</h1>
+        <p>Contact</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="overons.html">Over ons</a></li>
+            <li><a href="tarieven.html">Tarieven</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog/index.html">Blog</a></li> <!-- Added Blog button -->
+        </ul>
+    </nav>
+    <main>
+        <div id="left-column">
+            <section>
+                <h3>Adresgegevens</h3>
+                <p>Muziekschool H&J</p>
+                <p>t.a.v. Hannah en Jesse</p>
+                <p>Industrieterrein 37</p>
+                <p>5981 NK Panningen</p>
+                <p>0123-456789</p>
+                <p><a href="mailto:muziekschoolhj@inlook.com">muziekschoolhj@inlook.com</a></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153167!3d-37.8162797797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1f9f1b1b1b1!2sMuziekschool%20H%26J!5e0!3m2!1sen!2sau!4v1611811234567!5m2!1sen!2sau" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </div>
+        <div id="right-column">
+            <form id="contactformulier">
+                <h3>Contact</h3>
+                <p>U kunt een bericht achterlaten via onderstaand contactformulier.</p>
+                <label for="first-name">Uw voornaam</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <label for="last-name">Uw achternaam</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <label for="email">Uw e-mailadres</label>
+                <input type="email" id="email" name="email" required>
+                <label for="country">Land</label>
+                <select id="country" name="country">
+                    <option value="nederland">Nederland</option>
+                    <option value="belgie">België</option>
+                    <option value="duitsland">Duitsland</option>
+                    <option value="frankrijk">Frankrijk</option>
+                </select>
+                <label for="message">Bericht</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Verzend</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2021 Muziekschool H&J</p>
+    </footer>
+</body>
+</html>

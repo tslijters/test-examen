@@ -1,0 +1,15 @@
+{
+  "name": "ontwerp-voor-grote-en-normale-schermen",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "inspirational-quotes": "^2.0.1"
+  }
+}
